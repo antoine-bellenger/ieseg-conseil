@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/nav.css");
+@import url("components/poto.css");
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+	font font-weight: bold;
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 400px;
+  border-radius: 5px;
+}
